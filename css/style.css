@@ -1,0 +1,50 @@
+@media screen and (max-width: 750px) {
+    img{
+    width:50%;
+    height:50%;
+    } 
+  }
+
+.box {
+    float: right;
+    margin: 0px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius:  5px 5px 5px 5px;
+    padding: 30px;
+    box-sizing: 10px;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border:2px solid #cec6cd;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(36, 10, 10, 0.2);
+    border-radius: 5px 5px 5px 5px;
+    padding: 30px;
+}
+
+#content {
+    float: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 750px) {
+    aside, img {
+        width: 100%;
+        padding: 0;
+    }
+    #content {
+        width: 100%;
+        padding: 0px;
+        display: block;
+    }
+}
+
